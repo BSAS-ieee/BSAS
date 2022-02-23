@@ -1,0 +1,85 @@
+[
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "R_car_num",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_caraddress_s",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256[16]",
+				"name": "_map",
+				"type": "uint256[16]"
+			}
+		],
+		"name": "ReceiveCD",
+		"outputs": [
+			{
+				"internalType": "uint256[16]",
+				"name": "",
+				"type": "uint256[16]"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"internalType": "contract Processing",
+				"name": "processing",
+				"type": "address"
+			}
+		],
+		"name": "Resp_s",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_car_num",
+				"type": "uint256"
+			}
+		],
+		"name": "SendTX",
+		"outputs": [
+			{
+				"internalType": "uint256[16]",
+				"name": "",
+				"type": "uint256[16]"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
